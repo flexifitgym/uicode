@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FlexiFitness.iml" filepath="$PROJECT_DIR$/FlexiFitness.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FlexiFit.iml" filepath="$PROJECT_DIR$/FlexiFit.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

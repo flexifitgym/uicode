@@ -13,8 +13,9 @@ import android.widget.Toast;
 
 
 public class MainActivity extends Activity {
-    Button btnLogin, btnForgot, btnSignUp;
+    Button btnLogin, btnSignUp;
     EditText ed1, ed2;
+    TextView btnForgot;
 
     TextView tx1;
     int counter = 3;
@@ -25,12 +26,11 @@ public class MainActivity extends Activity {
         setContentView(R.layout.login);
 
 
-
         btnLogin = (Button) findViewById(R.id.btnLogin);
         ed1 = (EditText) findViewById(R.id.lEditEmail);
         ed2 = (EditText) findViewById(R.id.lEditPassword);
 
-        btnForgot = (Button) findViewById(R.id.btnForgotPassword);
+        btnForgot = (TextView) findViewById(R.id.forgotPassword);
 
         btnSignUp = (Button) findViewById(R.id.btnSignup);
 
